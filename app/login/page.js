@@ -150,6 +150,28 @@ export default function LoginScreen() {
         });
     });
 
+    useEffect(() => {
+        // Your provided JavaScript code
+        window.embeddedChatbotConfig = {
+          chatbotId: "wN10-CxQcdImEQLNk_mzz",
+          domain: "www.chatbase.co"
+        };
+    
+        const script = document.createElement('script');
+        script.src = 'https://www.chatbase.co/embed.min.js';
+        script.chatbotId = 'wN10-CxQcdImEQLNk_mzz';
+        script.domain = 'www.chatbase.co';
+        script.defer = true;
+    
+        // Append the script to the document body
+        document.body.appendChild(script);
+    
+        // Cleanup function to remove the script when the component unmounts
+        return () => {
+          document.body.removeChild(script);
+        };
+      });
+
     return (
         <main>
             {isLoading ? <LoadingScreen /> :
