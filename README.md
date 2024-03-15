@@ -2,14 +2,6 @@
 
 This is for Smart India Hackathon 2023.
 
-## Note
-
-> Please don't directly push any code to the repo. Open a PR instead.
-
-## About
-
-[Watch on Youtube](https://youtu.be/fSEUm5lBdsc)
-
 ## To Run
 
 ```
