@@ -226,16 +226,6 @@ export default function LoginScreen() {
                                 </div>
 
                                 <div>
-                                    // <div className="flex items-center justify-between">
-                                    //     <label className="block text-md font-medium leading-6 text-black">
-                                    //         Password
-                                    //     </label>
-                                    //     <div className="text-md">
-                                    //         <Link replace={true} href={"../forgot "} className="font-medium text-blue-600 hover:underline">
-                                    //             Forgot password?
-                                    //         </Link>
-                                    //     </div>
-                                    // </div>
                                     <div className="mt-2">
                                         <input
                                             type="password"
